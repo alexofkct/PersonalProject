@@ -22,7 +22,7 @@ Multithreading was then applied to the chatroom. The server.py script was enhanc
 ________________________________________
 **5. Encrypted Chat with AES**
 
-In the final phase, AES symmetric encryption was implemented on the client side to ensure message confidentiality. A separate script was created to generate and store the AES key and IV. Before integration, encryption and decryption were tested independently to minimize runtime errors. For now, all clients share the same key and IV, but future enhancements will include asymmetric encryption, where each client has their own private key and exchanges public keys for secure communication.
+In the fifth phase, AES symmetric encryption was implemented on the client side to ensure message confidentiality. A separate script was created to generate and store the AES key and IV. Before integration, encryption and decryption were tested independently to minimize runtime errors. For now, all clients share the same key and IV, but future enhancements will include asymmetric encryption, where each client has their own private key and exchanges public keys for secure communication.
 Additionally, to resolve lingering threads when a client disconnects, the client-side message handling thread was set as a daemon. This allows it to terminate cleanly when the main program ends, improving resource management and shutdown behavior.
 ________________________________________
 **6. Authentication Integration**
