@@ -2,6 +2,8 @@
 
 This project demonstrates my understanding of socket programming and multithreading in Python, gradually building from basic socket connections to a fully functional encrypted chatroom application.
 
+---
+
 **1. Basic Socket Server**
 
 The first script, server.py, listens for incoming TCP connections. Upon receiving a connection, it prints the IP address and port number of both the client and the server. Once the connection details are displayed, the program exits. This demonstrates a fundamental TCP handshake.
